@@ -1,0 +1,12 @@
+{
+    "watchlist": [
+        {
+            "url": "youtube.com",
+            "minutesVisitedToday" : 0
+        }, 
+        {
+            "url": "cnn.com"
+        }
+
+    ]
+}
