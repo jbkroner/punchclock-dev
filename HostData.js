@@ -1,6 +1,7 @@
-function HostData(hostname, activationTime) {
+function HostData(hostname) {
   this.hostname = hostname;
-  this.previousTime = activationTime;
+  this.activationTime = Date.now();
+  this.deactivationTime = Date.now();
   this.totalTime = 0;
 }
 
