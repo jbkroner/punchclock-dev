@@ -1,5 +1,5 @@
 function isTrackedHostname(hostname) {
-  const trackedHostNames = ["arstechnica.com", "google.com", "youtube.com"];
+  const trackedHostNames = ["www.arstechnica.com", "www.google.com", "www.youtube.com"];
   return trackedHostNames.includes(hostname);
 }
 
